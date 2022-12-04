@@ -32,7 +32,6 @@ import static org.junit.Assert.assertEquals;
     }
     @Before
     public void accessSite() {
-        System.setProperty("webdriver.chrome.driver","C:\\Program Files\\WebDriver\\bin\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://qa-scooter.praktikum-services.ru/");
     }
